@@ -1,0 +1,6 @@
+_source/
+.codex/
+.DS_Store
+pagina-de-bio-lucas-melo.html
+.venv/
+node_modules/
