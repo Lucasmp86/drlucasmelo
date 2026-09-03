@@ -57,7 +57,7 @@ h1,h2,h3{font-weight:300;font-family:var(--serif);
 
 /* ── 1 · Hero ────────────────────────────────────────────────── */
 .hero{position:relative;isolation:isolate}
-.hero__img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:var(--raise)}
+.hero__img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;background:var(--raise)}
 .hero__veil{
   position:absolute;left:0;right:0;bottom:0;top:0;pointer-events:none;
   background:linear-gradient(to top,
@@ -76,7 +76,7 @@ h1,h2,h3{font-weight:300;font-family:var(--serif);
 .hero__terr span{opacity:.5;padding:0 2px}
 
 /* ── Blocos ──────────────────────────────────────────────────── */
-.sec{padding:34px 24px;border-top:1px solid var(--hairline)}
+.sec{padding:26px 24px;border-top:1px solid var(--hairline)}
 .sec p+p{margin-top:13px}
 .sec .label+*{margin-top:14px}
 .sec p{color:var(--dim)}
@@ -86,10 +86,10 @@ h1,h2,h3{font-weight:300;font-family:var(--serif);
 .sec .h2{color:var(--cream)}
 
 /* ── 3 · CTA ─────────────────────────────────────────────────── */
-.cta .h2+p{margin-top:11px}
+.cta .h2+p{margin-top:9px}
 .btn{
   display:flex;align-items:center;justify-content:center;
-  min-height:54px;margin-top:22px;padding:0 22px;
+  min-height:54px;margin-top:15px;padding:0 22px;
   background:var(--gold);color:var(--ink);border-radius:2px;
   font:500 15px/1 var(--sans);letter-spacing:.02em;
   transition:opacity .2s var(--ease);
@@ -97,7 +97,7 @@ h1,h2,h3{font-weight:300;font-family:var(--serif);
 .btn:active{opacity:.82}
 .btn-2{
   display:flex;align-items:center;justify-content:center;
-  min-height:48px;margin-top:9px;
+  min-height:48px;margin-top:8px;
   color:var(--dim);font:400 14px/1 var(--sans);
   border:1px solid var(--hairline);border-radius:2px;
   transition:color .2s var(--ease),border-color .2s var(--ease);
