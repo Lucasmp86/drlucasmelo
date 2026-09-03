@@ -1,7 +1,15 @@
 # Página de bio · Dr. Lucas Melo
 
 HTML, CSS e JS puros. Sem framework, sem bundler, sem build step.
-Para publicar, o Cloudflare Pages só copia a pasta como ela está.
+
+**No ar em <https://drlucasmelo.lucas-f50.workers.dev>**, servido pela Cloudflare
+como Worker com assets estáticos, ligado ao repositório
+<https://github.com/Lucasmp86/drlucasmelo>. Cada push na branch `main` republica
+sozinho, em cerca de um minuto. Não há build: a Cloudflare copia a pasta como ela
+está, e o arquivo `_headers` define cache e cabeçalhos de segurança.
+
+Se um dia houver domínio próprio, ele aponta para esse mesmo Worker e as duas
+únicas linhas a trocar são o `canonical` e o `og:image`, no topo do index.html.
 
 ## Onde mexer
 
