@@ -55,10 +55,6 @@ h1,h2,h3{font-weight:300;font-family:var(--serif);
 .h2{font-size:clamp(23px,6.2vw,27px);line-height:1.22}
 .h3{font-size:18px;line-height:1.3;margin-bottom:5px}
 
-/* ── 0 · Masthead. O monograma sozinho, como manda a marca. ──── */
-.mast{display:flex;justify-content:center;padding:22px 24px 18px}
-.mast__lm{width:64px;height:33px;opacity:.92}
-
 /* ── 1 · Hero ────────────────────────────────────────────────── */
 .hero{position:relative;isolation:isolate}
 .hero__img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:var(--raise)}
