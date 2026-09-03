@@ -2,13 +2,13 @@
    Tudo o que é texto ou link mora no index.html. Este arquivo é só forma. */
 
 /* ── Fontes, servidas do próprio domínio ─────────────────────── */
-@font-face{font-family:Fraunces;src:url(fonts/fraunces.woff2)format("woff2");
+@font-face{font-family:Fraunces;src:url(fonts/fraunces.7bc28d4b.woff2)format("woff2");
   font-weight:300 600;font-style:normal;font-display:swap}
-@font-face{font-family:Fraunces;src:url(fonts/fraunces-italic.woff2)format("woff2");
+@font-face{font-family:Fraunces;src:url(fonts/fraunces-italic.6a581a26.woff2)format("woff2");
   font-weight:300;font-style:italic;font-display:swap}
-@font-face{font-family:Urbanist;src:url(fonts/urbanist.woff2)format("woff2");
+@font-face{font-family:Urbanist;src:url(fonts/urbanist.877790d7.woff2)format("woff2");
   font-weight:400 600;font-style:normal;font-display:swap}
-@font-face{font-family:"Plex Mono";src:url(fonts/plex-mono.woff2)format("woff2");
+@font-face{font-family:"Plex Mono";src:url(fonts/plex-mono.dcf4a613.woff2)format("woff2");
   font-weight:400;font-style:normal;font-display:swap}
 
 /* ── Identidade ──────────────────────────────────────────────── */

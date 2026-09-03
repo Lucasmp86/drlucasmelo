@@ -40,13 +40,31 @@ Precisa do ambiente Python local (`.venv`), criado uma vez:
 
     python3 -m venv .venv && ./.venv/bin/pip install fonttools brotli pillow
 
-Foto do hero (corta em 4:5, remove EXIF, gera os nove arquivos):
+Foto do hero (estende a parede, corta quadrado, remove EXIF, gera os nove
+arquivos em três larguras):
 
     ./.venv/bin/python _source/build-hero.py _source/hero-original.jpg
 
 Fontes (reduz cada fonte às letras que a página usa):
 
     ./.venv/bin/python _source/build-fonts.py
+
+Monograma e ícone:
+
+    ./.venv/bin/python _source/build-monogram.py
+
+**Depois de qualquer um deles, rode sempre este:**
+
+    ./.venv/bin/python _source/fingerprint.py
+
+Ele põe um resumo do conteúdo no nome de cada imagem e fonte
+(`hero-780.0bb456c1.avif`) e atualiza as referências no index.html e no
+style.css. Sem isso, quem já visitou o site continua vendo a versão antiga: o
+`_headers` manda guardar esses arquivos por um ano sem perguntar de novo, e só
+um nome diferente faz o navegador buscar de novo.
+
+O `style.css` e o `app.js` ficam de fora do carimbo de propósito. São os
+arquivos que se edita à mão, e eles já revalidam a cada carregamento.
 
 ## Ver no computador antes de publicar
 
