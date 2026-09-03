@@ -161,7 +161,7 @@ h1,h2,h3{font-weight:300;font-family:var(--serif);
 .foot{padding:30px 24px 34px;border-top:1px solid var(--hairline)}
 .foot__n{font-family:var(--serif);font-weight:300;font-size:19px;margin-bottom:7px}
 .foot__a{margin-top:10px;font-size:13px;color:var(--dim)}
-.foot__d{margin-top:16px;font-size:11.5px;line-height:1.5;color:rgba(245,240,232,.38)}
+.foot__d{margin-top:16px;font-size:11.5px;line-height:1.5;color:rgba(245,240,232,.52)}
 
 /* ── 10 · Barra fixa ─────────────────────────────────────────── */
 .bar{
